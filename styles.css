@@ -26,11 +26,12 @@ body {
 }
 
 .col h2:hover {
-    background: rbga(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.1);
     cursor: pointer;
 }
 
 .col button {
+    outline: none;
     border: none;
     background: transparent;
     font-size: 1.5rem;
@@ -41,6 +42,6 @@ body {
 }
 
 .col button:hover {
-    background: rbga(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.1);
     cursor: pointer;
 }
